@@ -1,0 +1,19 @@
+[project]
+name = "project"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "BuildTools", email = "unconfigured@null.spigotmc.org"},
+]
+dependencies = [
+    "opencv-python>=4.9.0.80",
+    "tqdm>=4.66.4",
+    "pytesseract>=0.3.10",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false

@@ -1,0 +1,6 @@
+[submodule "OIDv4_ToolKit"]
+	path = OIDv4_ToolKit
+	url = https://github.com/EscVM/OIDv4_ToolKit.git
+[submodule "darknet"]
+	path = darknet
+	url = https://github.com/pjreddie/darknet.git
